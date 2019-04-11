@@ -36,7 +36,7 @@ public class EjemplosClase2_2 {
         tec.nextLine();//limpieza de buffer de entrada de datos
         
         System.out.println("Por favor ingrese su ciudad:");
-        ciudad = tec.next();
+        ciudad = tec.nextLine();
         
         System.out.println("Su nombre es: " + nombre + "\n\n\tSu apellido es: "
                 + apellido + ", edad: " + edad + "\nCiudad: " + ciudad);
